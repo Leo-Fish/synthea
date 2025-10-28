@@ -5,10 +5,20 @@
 
 buildscript {
   repositories {
+mavenLocal()
     mavenCentral()
   }
   dependencies {
-    classpath 'com.gradleup.shadow:shadow-gradle-plugin:8.3.9'
+
+    classpath group: 'edu.illinois.cs',
+    name: 'idflakies', 
+    version: '1.1.0'
+    
+    classpath group: 'edu.illinois.cs',
+    name: 'testrunner-gradle-plugin', 
+    version: '1.2'
+
+        classpath 'com.gradleup.shadow:shadow-gradle-plugin:8.3.9'
   }
 }
 
@@ -36,6 +46,8 @@ plugins {
   id 'jacoco'
   id 'maven-publish'
   id 'signing'
+  id 'edu.illinois.nondex' version '2.1.7' apply false
+
 }
 
 java {
@@ -310,6 +322,19 @@ task physiology(type: JavaExec) {
     mainClass = "org.mitre.synthea.engine.PhysiologySimulator"
 }
 
+task reproduceFlakiness(type: Test) {
+    group = 'Application'
+    description = 'Reproduce HashMap order flakiness in PayerTest'
+    include '**/ReproduceFlakiness.class'
+}
+
+task flakinessDemo(type: JavaExec) {
+    group = 'Application'
+    description = 'Demonstrate HashMap flakiness in removeBlankMapStringValues method'
+    classpath sourceSets.test.runtimeClasspath
+    mainClass = "org.mitre.synthea.debug.FlakinessDemo"
+}
+
 task versionTxt() {
   group = 'Build'
   description = 'Generates a version file.'
@@ -438,3 +463,7 @@ signing {
   required = { project.hasProperty('signing.keyId') }
   sign publishing.publications.synthea
 }
+
+apply plugin: 'edu.illinois.nondex'
+
+apply plugin: 'testrunner'

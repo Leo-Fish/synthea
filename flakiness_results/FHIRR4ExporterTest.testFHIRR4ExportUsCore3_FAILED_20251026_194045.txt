@@ -1,0 +1,960 @@
+Test: org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+Status: FAILED (Flaky)
+Timestamp: Sun Oct 26 20:11:08 CDT 2025
+=========================================
+
+Warning: Could not find debug results path in output
+
+=========================================
+nondexDebug output:
+=========================================
+
+> Task :versionTxt
+
+> Task :compileJava
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :processResources
+> Task :classes
+
+> Task :compileTestJava
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :processTestResources
+> Task :testClasses
+
+> Task :nondexDebug
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=-2147483648
+nondexEnd=2147483647
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=+W2svpXQuakH8x7PcYwhtUWdCMhl1u1JqL12b3KjI=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+INFO: Debugging binary for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 0 : 1873058
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=936529
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=3X9IKlvPO9ke5OXNsFzr3OYSS40nuvFSfftVbWmVY0o=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=936530
+nondexEnd=1873058
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=qHQKsKnzLKYyu695GGePvczyLV9dKCmuqqWbdSgtq8=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+INFO: Debugging binary for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 936530 : 1873058
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=936530
+nondexEnd=1404794
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=VUzVFRnCcTcTQFIzgKK10Pj703JITGNEq0rsENMsQ=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404795
+nondexEnd=1873058
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=uu+uuS4Tw5f7qa7FHIlLubhwVfsw2TGK+y+xyAbVQ=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+INFO: Debugging binary for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404795 : 1873058
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404795
+nondexEnd=1638926
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=bkvrgNFjFouQSjCAqL8y0kbKcWSaq7OQ5hh0ofVjPpU=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1638927
+nondexEnd=1873058
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=zCoQYKUqpbck8Qg39zPzFp4UE+F3xNkYMW1fjCHdE4=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+SEVERE: Binary splitting did not work. Going to linear
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404795 : 1873058
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404795
+nondexEnd=1873057
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=ZaPDzFwr3T+6xmzJwdbb2aW6Id27LfwJ2szQ0shZdMg=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404796
+nondexEnd=1873058
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=+JQLBZpydEbN1tG4ONJ60Dfp9QYeVtgQT3oYGv6c9MA=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404795 : 1873057
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404795
+nondexEnd=1873056
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=kxP3eugIAn5k8ZRr2lFAvXmfLVKqP4ieVbX44wYyg94=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404796
+nondexEnd=1873057
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=0PvAW+VNxEvKNwYWP28P6vUIodvPjkI5VF4D3O1ulT4=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404795 : 1873056
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404795
+nondexEnd=1873055
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=tthbq+MY6++wGmep5tUHKsTY5xFxvO9MVTM2wSvoPGI=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404796
+nondexEnd=1873056
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=+SN6bSZnevRICvMtyiaa4jtp+AhmYd03jpRB5PwLuE=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404796 : 1873056
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404796
+nondexEnd=1873055
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=7xrAxsikysNNLeusrxaa9SriAPKmRG6iv66QureLE0s=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404797
+nondexEnd=1873056
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=2KE0XhKXWUlqwziMiR0aF9y6ol0rYBkNMBU6Y3EByn0=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404796 : 1873055
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404796
+nondexEnd=1873054
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=jMeTLZe8Fxu0W2ACDNgDuFWYr3ATGIkp2YRJlJgmdgI=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404797
+nondexEnd=1873055
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=ViaJ20PqKFSoVvN7Osv2IH2soty6l5blnM9X4NuoIM=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404797 : 1873056
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404797
+nondexEnd=1873055
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=HgzdhVlhztrZ2lo+yL8bdXaJH6PdFGc10GyiWSfvmw=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404798
+nondexEnd=1873056
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=ectKHCE8vEeuNXSyhx60sDeDM8B00iWXJkWxzA2GU=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404797 : 1873055
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404797
+nondexEnd=1873054
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=wfbYw6ZKzcok3GVx7VZrJOhjXtPPv+I0ffeinulluM=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404798
+nondexEnd=1873055
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=3CGtMog87O299Qi1AU9num4rJMz6EJo8kwraSXfVY=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404797 : 1873054
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404797
+nondexEnd=1873053
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=CizvZmxstcBj4dhUg2A41Dx+d2+kjm3gb0qa6z19gY=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404798
+nondexEnd=1873054
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=iWBPyiJxniUzYxYUkeE4zaAasvPKuufuV1lG4+pLvQ=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404797 : 1873053
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404797
+nondexEnd=1873052
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=nX5gwFREkNjp5toWUwhUScxdjZ54gR9rSB4jgTPpsL0=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404798
+nondexEnd=1873053
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=NELU8ZA36qBdn0MqB+Iz1ifxgceJXHJlmQq+L2paCw=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404798 : 1873054
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404798
+nondexEnd=1873053
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=O8WfhMblmy4h9fh6W6gy1a9JdovKSmIfU2IjVRbCmXE=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404799
+nondexEnd=1873054
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=ujsaBOEfC2HUvdmUMV37ZpOZkmQ8Cqf7sBBxvPwg=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404797 : 1873052
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404797
+nondexEnd=1873051
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=MI0ndzW5pRysYPu4Cykvg6waB3pMtIVF3OJGElKy8LU=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404798
+nondexEnd=1873052
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=oQK1TarhvRi9PudUsQDLPFpjtFca1RTbzXJHPP94nI=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404798 : 1873053
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404798
+nondexEnd=1873052
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=e7KHPmprPBp0SZPQvCIsHVn3Prs3EpYTLmvLDw2vN0=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404799
+nondexEnd=1873053
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=wAFyYcX6VyMCaSRExfzix6u2rlUfGOh1g4PYD9zUQ=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404798 : 1873052
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404798
+nondexEnd=1873051
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=uJaOMYRMjQ0HJyNPGXoacKOcxbaw7Asr5m0qG7OeKM=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404799
+nondexEnd=1873052
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=IBBqGgHwlU9l8E0EURAeV9XtfP6sysC6bLZA1mSOv8=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404799 : 1873053
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404799
+nondexEnd=1873052
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=vTlKdiYOyHXRhnpmFHTUYFqRoPnUUSplsxfYqD8xcU=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404800
+nondexEnd=1873053
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=GGLfvp4ZvStjkwqLPb2JjVu3Chl5KTcZ9ECCpEIoVA=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404799 : 1873052
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404799
+nondexEnd=1873051
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=JBUZfD3k0I+QHWLlcwvwzWSckep6XkUB6RnG0oaosyI=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404800
+nondexEnd=1873052
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=soUOJ0pnYnLieA7W6n5WoLXw9kSlp0Y0M8xVSi86dW0=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404799 : 1873051
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404799
+nondexEnd=1873050
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=Hzyq1OwtLbuwAgOaYDBCwgO1WisiSyt48Nv7MoZ4k=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404800
+nondexEnd=1873051
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=Ul3C+JKZhwjnSUlJfrXkiGFT1civ+tDiu6n7jLLoGAU=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404800 : 1873051
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404800
+nondexEnd=1873050
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=X+CwJjELWgGyR4ko+Ay+eZS5W4vgPCp1sCJVGC1w2k=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404801
+nondexEnd=1873051
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=AMupR2xv4daAncxK8TQRcVHPCaw7YUCFW+elTgXYFwk=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404800 : 1873050
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404800
+nondexEnd=1873049
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=Qv+ZTuLkB4nKTqlPBjuhM83zNM8Rxv2J60e28078j8=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404801
+nondexEnd=1873050
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=rq6bgHsfK3ZZ+J8SvSbuq0NKuMP6f2eampAq9NyXEs=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404800 : 1873049
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404800
+nondexEnd=1873048
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=MP0DZRm6oZVFCNG49rUA30MvWG7LUTc1BDNR1djS5g=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404801
+nondexEnd=1873049
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=g6vzAuY1x+u3+yN8CPEI6kEGRjycakK3Y1jWsshO4=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404800 : 1873048
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404800
+nondexEnd=1873047
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=U+wdzgiWTvl7qZJlwa1Lxs+57dTNPG3wU3g4ASiBpsk=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404801
+nondexEnd=1873048
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=Op5bhBE06vrJxXUUuWniYjhYDbD3cZvlQBBvNeSfwlA=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404801 : 1873048
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404801
+nondexEnd=1873047
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=atbYyNMOE+d4WjSxaA8wwy5nXXFZWxaVJcGhw94Jg=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404802
+nondexEnd=1873048
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=KhYsRrzRdYr1rkFoWVMnIglPAFs8XQNAM7WxGMszIWg=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404801 : 1873047
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404801
+nondexEnd=1873046
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=QIdc5jJsNvUz0wrVMH44c2I97liQEEw8LlHWwK0VJ6s=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404802
+nondexEnd=1873047
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=IJXOp18+KtNMeWmS9v6CS5ftaNW6Eg7ZDjpFVSf0Rsw=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404801 : 1873046
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404801
+nondexEnd=1873045
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=21eEf351a9ft3+llbQ5fq7hF1kMszZjovVrfucdUw=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404802
+nondexEnd=1873046
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=2yy8GQytg1lmEwh0Kisxhd7UjaXJND77zvzhcXC8A=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404801 : 1873045
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404801
+nondexEnd=1873044
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=1Fz+EM4pbxwsCkCLfM3bwwXTrWF8taTkvH2vvuccU=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404802
+nondexEnd=1873045
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=xM4RedPM6QK4dUoh4kNuYKs61X4pA61Ym4md61maqg=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404801 : 1873044
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404801
+nondexEnd=1873043
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=y4R0CJ6+1XReSIiDYuNbgHWJp2MHG1iwa5iORQC68R0=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404802
+nondexEnd=1873044
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=YAtkv7SYfuVcUVtzp9l0QKsMjnVCBgC5i+6wrbQgY0Y=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404802 : 1873045
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404802
+nondexEnd=1873044
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=wdV2SWv10MwPB0L25gJvMlzlQB0TJQyMUW3PSA9s6g=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404803
+nondexEnd=1873045
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=+BhAqjdU6m2JUW9Gdn9BIIxySC+Tu6Qaa7Mct5Lto9c=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404802 : 1873044
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404802
+nondexEnd=1873043
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=dNkVjWIdfr7kf7g1FNk1mYz3O4LOLmIB17HhLyVxCBE=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404803
+nondexEnd=1873044
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=LfQnPLsHNOQQ4bElNaonfehYAN6jnnhclJ2mF5cBl2c=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404803 : 1873044
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404803
+nondexEnd=1873043
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=O2w8P0XWkZyz3WimpVVjnsmst89yw+fUiMc+tmZfhws=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404804
+nondexEnd=1873044
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=jeHJ7BYOHLZDDG8opC5FVdKdfU+cnqNTvhWiwhpmnqE=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404804 : 1873044
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404804
+nondexEnd=1873043
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=J2EXbNHr0RJnrii2akNMr6rQTgY3UJ5sht1+Le8dLG4=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404805
+nondexEnd=1873044
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=YwOeCOZcE6OF5tm4cVIuBNH+UPv5OutpvlKrhH0nEco=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404804 : 1873043
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404804
+nondexEnd=1873042
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=vrEx0zBvM0dbNNNNsULvew8xZROApAqyC0R4F70vk3A=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404805
+nondexEnd=1873043
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=zhnzPoHBPfk5N1csSkuHm629p2jG3jxWccu3uS10GfQ=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+
+org.mitre.synthea.export.FHIRR4ExporterTest > testFHIRR4ExportUsCore3 FAILED
+    java.lang.StringIndexOutOfBoundsException at FHIRR4ExporterTest.java:210
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404804 : 1873042
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404804
+nondexEnd=1873041
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=r1hqUNsLJFnaAPg7aO2YaoCY79HZ3FZFaACYoxdMVm0=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404805
+nondexEnd=1873042
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=SGnkAv517eLER14dBBsbEIx8PYrqgekNPs2HOo8C9uo=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+INFO: Debugging linear for org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3 1404805 : 1873043
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404805
+nondexEnd=1873042
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=3wn5gN00iklnMIU8uk7NVjLG9DcwCuijaoHnu8Q1ekk=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=1404806
+nondexEnd=1873043
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=dOF6T9BZpTVg6Gqek27vUsisZCIPFqmieb4llImF3+8=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3
+CONFIG: nondexFilter=.*
+nondexMode=FULL
+nondexSeed=974622
+nondexStart=-2147483648
+nondexEnd=2147483647
+nondexPrintstack=false
+nondexDir=/home/lenovo/code/synthea/.nondex
+nondexJarDir=/home/lenovo/code/synthea/.nondex
+nondexExecid=Gk0XClr0u2fnMymDFydPXaiyAtVnWmM+Pwvd6nIl61g=
+nondexLogging=CONFIG
+test=org.mitre.synthea.export.FHIRR4ExporterTest.testFHIRR4ExportUsCore3

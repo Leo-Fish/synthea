@@ -1,0 +1,46 @@
+Test: org.mitre.synthea.world.agents.PayerTest.receiveMedicaidPregnancyEligible
+Status: FAILED (Flaky)
+Timestamp: Sun Oct 26 22:31:42 CDT 2025
+=========================================
+
+Debug path: /home/lenovo/code/synthea/.nondex/+lkgOjjoC1HDAVXj2xcRwZTR4P7flCaWqdab5bD34=/debug
+/home/lenovo/code/synthea/.nondex/+R2Ag2OoYbGQvx8JqiwT+25iL5fEU1FYw6mxtcWnYyA=/debug
+
+=========================================
+Debug file contents:
+=========================================
+
+Warning: Debug file not found at /home/lenovo/code/synthea/.nondex/+lkgOjjoC1HDAVXj2xcRwZTR4P7flCaWqdab5bD34=/debug
+/home/lenovo/code/synthea/.nondex/+R2Ag2OoYbGQvx8JqiwT+25iL5fEU1FYw6mxtcWnYyA=/debug
+
+TEST: org.mitre.synthea.world.agents.PayerTest.receiveMedicaidPregnancyEligible
+java.base/java.lang.Thread.getStackTrace(Thread.java:1619)
+java.base/edu.illinois.nondex.common.NonDex.printStackTraceIfUniqueDebugPoint(NonDex.java:165)
+java.base/edu.illinois.nondex.common.NonDex.shouldExplore(NonDex.java:136)
+java.base/edu.illinois.nondex.common.NonDex.getPermutation(NonDex.java:106)
+java.base/edu.illinois.nondex.shuffling.ControlNondeterminism.shuffle(ControlNondeterminism.java:74)
+java.base/java.util.HashMap$HashIterator$HashIteratorShuffler.<init>(Unknown Source)
+java.base/java.util.HashMap$HashIterator.<init>(HashMap.java:1587)
+java.base/java.util.HashMap$KeyIterator.<init>(HashMap.java:1618)
+java.base/java.util.HashMap$KeySet.iterator(HashMap.java:983)
+org.mitre.synthea.world.agents.behaviors.planeligibility.CSVEligibility.<init>(CSVEligibility.java:60)
+org.mitre.synthea.world.agents.behaviors.planeligibility.PlanEligibilityFinder.buildPlanEligibilities(PlanEligibilityFinder.java:72)
+org.mitre.synthea.world.agents.PayerManager.loadPayers(PayerManager.java:98)
+org.mitre.synthea.world.agents.PayerTest.before(PayerTest.java:85)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.base/java.lang.reflect.Method.invoke(Method.java:569)
+org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+org.junit.internal.runners.statements.RunBefores.invokeMethod(RunBefores.java:33)
+org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)

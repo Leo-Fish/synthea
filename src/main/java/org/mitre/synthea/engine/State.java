@@ -8,6 +8,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -1089,7 +1090,9 @@ public abstract class State implements Cloneable, Serializable {
           new ArrayList<Medication>(person.chronicMedications.values().size());
 
       // Go through each chronic medication and "reorder"
-      for (Medication chronicMedication : person.chronicMedications.values()) {
+      List<Medication> sortedMedications = new ArrayList<>(person.chronicMedications.values());
+      sortedMedications.sort(Comparator.comparing((Medication m) -> m.type));
+      for (Medication chronicMedication : sortedMedications) {
         // RxNorm code
         String primaryCode = chronicMedication.type;
 
